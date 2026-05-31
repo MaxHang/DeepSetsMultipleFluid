@@ -1,0 +1,66 @@
+{
+    "scene_properties": {
+        "num_phases": 2,
+        "density": [
+            1500.0,
+            1000.0
+        ],
+        "cd": 0.3,
+        "cf": 0.7,
+        "cd_seq": [
+            0.3,
+            0.7,
+            0.01
+        ],
+        "cf_seq": [
+            0.01,
+            0.3,
+            1.0
+        ]
+    },
+    "walls": [
+        {
+            "ply_path": "/workspace/xyh_synology/graduate/mix_obj/20260131_obstacle_coffee_r0.05.ply",
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "invert_normals": true
+        }
+    ],
+    "fluids": [
+        {
+            "ply_path": "/workspace/xyh_synology/graduate/mix_obj/20260131_fluid_coffee_r0.05.ply",
+            "velocity": [
+                0,
+                -0.5,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "start": 0,
+            "stop": 3600,
+            "step": 5
+        },
+        {
+            "ply_path": "/workspace/xyh_synology/graduate/mix_obj/20260131_fluid_milk_r0.05.ply",
+            "velocity": [
+                0,
+                -0.5,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "start": 3800,
+            "stop": 4600,
+            "step": 5
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+# dataset_dir: "../datasets/ours_default_data" # path to the dataset directory with 'train' and 'valid' subdirs.
+dataset_dir: "/workspace/xyh_synology/graduate/datasets/mix-fluid-cconv" # path to the dataset directory with 'train' and 'valid' subdirs.
+model:
+  particle_radius: 0.05
+train_data:
+  random_rotation: true # randomly rotate training data about the gravity axis.
+train_dir: "/workspace/xyh_synology/graduate/weights/mix-fluid" # path to the directory where the model weights will be saved.

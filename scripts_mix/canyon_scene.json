@@ -1,0 +1,33 @@
+{
+    "walls": [
+        {
+            "path": "canyon_boundary.obj",
+            "ply_path": "/workspace/xyh_synology/graduate/mix_obj/canyon_boundary_r0.05.ply",
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "invert_normals": true
+        }
+    ],
+    "fluids": [
+        {
+            "path": "canyon_emitter.obj",
+            "ply_path": "/workspace/xyh_synology/graduate/mix_obj/canyon_emitter_r0.05.ply",
+            "velocity": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "start": 0,
+            "stop": 800,
+            "step": 12
+        }
+    ]
+}

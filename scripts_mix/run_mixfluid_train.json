@@ -1,0 +1,31 @@
+{
+    "h5_path": "/workspace/xyh_synology/graduate/datasets/mix-fluid-cconv/train/cd_0.0_cf_0.0.h5",
+    "walls": [
+        {
+            "path": "/workspace/DeepLagrangianFluids/datasets/models/Box.obj",
+            "translation": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "fluids": [
+        {
+            "path": "/workspace/DeepLagrangianFluids/datasets/models/Fluid.obj",
+            "velocity": [
+                0.3,
+                0,
+                0.2
+            ],
+            "translation": [
+                0,
+                1,
+                0
+            ],
+            "start": 0,
+            "stop": 1,
+            "step": 1
+        }
+    ]
+}

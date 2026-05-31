@@ -1,0 +1,30 @@
+dataset_dir: "/workspace/xyh_synology/graduate/datasets/mix-20260112"
+
+train_params:
+  max_iter: 50000
+  base_lr: 0.001
+  batch_size: 32
+
+model:
+  particle_radius: 0.05
+  aggregation: "sum"
+  phase_feat_centralization: true
+  cd_cf_as_input: true
+  cd_cf_embedding_dim: 32
+  vf_residual: false
+  vf_use_velocity: false
+
+loss_weights:
+  pos: 1.0
+  vf: 5.0
+  zero: 2.0
+  entropy: 0.0
+  mass: 1.0
+  gamma: 1.0
+  neighbor_scale: 0.025
+  use_importance: true
+
+train_data:
+  random_rotation: true
+
+train_dir: "/workspace/xyh_synology/graduate/weights/mix_it_dens_cd_cf_separate_pos_phase_v13"
